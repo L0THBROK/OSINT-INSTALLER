@@ -6,7 +6,7 @@ from colorama import Fore, Back, Style, init
 init(autoreset=True)
 
 def welcome_message():
-    welcome_text = "Welcome by Lothbrok9"
+    welcome_text = "Welcome by L0THBROK"
     for i in range(3):
         print(Fore.CYAN + Style.BRIGHT + f"\r{welcome_text}", end="")
         time.sleep(0.5)
